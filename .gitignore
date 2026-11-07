@@ -3,6 +3,7 @@
 
 # Godot 4+ specific ignores
 .godot/
+/.codex/
 .nomedia
 
 # Godot-specific ignores
@@ -21,5 +22,8 @@ mono_crash.*.json
 
 # Export outputs
 *.exe
+# Local debug builds
+/build/
+/.local/
 # Uncomment if your project does not version PCK files as runtime dependencies.
 # *.pck
